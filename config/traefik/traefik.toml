@@ -11,7 +11,7 @@
   exposedByDefault = false
 
 [certificatesResolvers.myresolver.acme]
-  email = "support@treschains.com"
+  email = "support@haidar.fun"
   storage = "/acme.json"
   [certificatesResolvers.myresolver.acme.httpChallenge]
     entryPoint = "web"

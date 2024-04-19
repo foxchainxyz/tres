@@ -14,7 +14,7 @@ providers:
 certificatesResolvers:
   myresolver:
     acme:
-      email: "support@treschains.com"
+      email: "support@haidar.fun"
       storage: "/letsencrypt/acme.json"
       httpChallenge:
         entryPoint: "web"

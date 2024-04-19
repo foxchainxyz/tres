@@ -46,7 +46,7 @@ services:
       - db:database
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.backend.rule=Host(`api.treschains.com`)"
+      - "traefik.http.routers.backend.rule=Host(`api.haidar.fun`)"
       - "traefik.http.routers.backend.entrypoints=websecure"
       - "traefik.http.routers.backend.tls=true"
       - "traefik.http.routers.backend.tls.certresolver=myresolver"
@@ -68,7 +68,7 @@ services:
       -  ../config/visualizer.env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.visualizer.rule=Host(`visualizer.treschains.com`)"
+      - "traefik.http.routers.visualizer.rule=Host(`visualizer.haidar.fun`)"
       - "traefik.http.routers.visualizer.entrypoints=websecure"
       - "traefik.http.routers.visualizer.tls=true"
       - "traefik.http.routers.visualizer.tls.certresolver=myresolver"
@@ -123,7 +123,7 @@ services:
       -  ../config/stats/stats.env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.stats.rule=Host(`stats.treschains.com`)"
+      - "traefik.http.routers.stats.rule=Host(`stats.haidar.fun`)"
       - "traefik.http.routers.stats.entrypoints=websecure"
       - "traefik.http.routers.stats.tls=true"
       - "traefik.http.routers.stats.tls.certresolver=myresolver"
